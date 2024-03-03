@@ -1,0 +1,106 @@
+/*===== Google Fonts =====*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); */
+/*===== Global CSS =====*/
+
+.body{
+    margin: 0;
+    padding: 0;
+    background:rgb(220, 227, 221);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.terms-box{
+    max-width: 600px;
+    background-color: #111;
+    color: white;
+    font-family: "Montserrat";
+    padding: 60px 30px;
+
+}
+.terms-text{
+    padding: 0 20px;
+    height: 400px;
+    overflow-y: auto;
+    font-size: 14px ;
+    font-weight: 500;
+    color: #f1f1f1;
+
+}
+h2{
+    font-family: "Kaushan Script", cursive;
+}
+span{
+    font-family: "Kaushan Script", cursive;
+}
+p{
+    text-align: justify;
+    gap: 10px;
+    font-family: "Kaushan Script", cursive;
+}
+
+.terms-text::-webkit-scrollbar{
+    width: 2px;
+    background-color: #282828;
+
+}
+.terms-text::-webkit-scrollbar-thumb{
+    background-color: #d13639;
+
+}
+.terms-text h2{
+    text-transform: uppercase;
+}
+
+.terms-box h4{
+    font-size: 13px;
+    text-align: center;
+    padding: 0 40px;
+}
+.terms-box h4 span{
+    color: #d13639;
+}
+
+nav{
+    background-color: rgb(0, 8, 11);   
+    color: white;
+    display: flex;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    }
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+ul li a{
+    font-family: "Kaushan Script", cursive;
+    text-decoration: none;
+    color: white;
+}
+.text{
+    font-family: "Kaushan Script", cursive;
+}
+img{
+    width: 50px;
+}
+img:hover{
+    cursor: pointer;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 17px;
+}
+.text:hover{
+    text-decoration: underline cyan;
+    cursor: pointer;
+    
+}
